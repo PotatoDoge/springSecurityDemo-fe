@@ -1,0 +1,58 @@
+.container{
+    color: #34282C;
+    width: 100%
+}
+
+.test{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.header{
+    margin-bottom: 50px;
+    h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    p{
+        opacity: .7;
+    }
+
+}
+
+.loginForm{
+    width: 450px;
+
+    &-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    &-footer{
+        display: flex;
+        gap: 30px;
+        margin-top: 70px;
+    }
+}
+
+.item label:not(.checkboxLabel){
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='password']{
+    border: 1px solid black;
+    height: 55px;
+    padding: 0 1rem;
+    width: 100%;
+    outline: none;
+    transition: background .5s;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
